@@ -11,7 +11,7 @@ import java.sql.Statement;
 public class Database {
 
     private Connection connect() {
-        String url = "jdbc:sqlite:D:\\SoftwareDevelopment\\Projects\\Java\\boldare-java-project\\boldare.db";       
+        String url = "jdbc:sqlite:C:\\VendingMachineCoinSystem\\database.db";       
         Connection conn = null;
         try {
             conn = DriverManager.getConnection(url);
